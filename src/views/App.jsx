@@ -1,9 +1,12 @@
 import React from "react";
 import './App.css'
+import Menu from "../components/layout/Menu.jsx";
+import Content from "../components/layout/Content.jsx";
 
 const App = props => (
     <div className="App">
-        Componente App
+        <Menu />
+        <Content />
     </div>
 )
 
